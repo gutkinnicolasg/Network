@@ -1,13 +1,13 @@
-import socket
-import sys
-
 # Port Scanner for TCP Ports
 # by Guillaume Gutkin-Nicolas
 
 # Disclaimer: Scanning a port is the equivalent of walking up to a door and checking if
 # it is locked. If the door doesn't belong to you would it be considered trespassing?
-# Something to consider before using this tool
+# Something to consider before using this tool.
 
+# import statements
+import socket
+import sys
 # Ask for input for global variable
 host = input("Enter a remote host to scan: ")
 # deals with input that's not in IP format
@@ -63,5 +63,4 @@ if __name__=="__main__":
         rangePort()
     else:
         print("No ports will be scanned. Goodbye...")
-  
-
+ 
