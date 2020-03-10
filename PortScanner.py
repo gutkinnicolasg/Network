@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # Port Scanner for TCP Ports
 # by Guillaume Gutkin-Nicolas
 
